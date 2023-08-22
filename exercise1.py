@@ -18,7 +18,11 @@ import gym
 import numpy as np
 import matplotlib.pyplot as plt
 
-desc = ["SFFF", "FHFH", "FFFH", "HFFG"]
+desc = ["SFFF",
+        "FHFH",
+        "FFFH",
+        "HFFG"]
+
 env = gym.make("FrozenLake-v1", desc=desc, map_name="4x4", is_slippery = True)
 
 n_games = 1000
