@@ -4,11 +4,12 @@ Created on Tue Aug 22 16:39:43 2023
 
 @author: furkan
 
-First Exercise
+Exercise 1
+Frozen Lake environment
+Documentation -> https://www.gymlibrary.dev/environments/toy_text/frozen_lake/
 0 reward per step, +1 for escaping
 Agent slides
 Holes (H) terminate the episode
-Documentation -> https://www.gymlibrary.dev/environments/toy_text/frozen_lake/
 Random agent, 1000 games
 Poor performance
 """
